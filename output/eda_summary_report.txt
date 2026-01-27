@@ -1,0 +1,35 @@
+
+FOOTBALL DATA EDA SUMMARY REPORT
+================================
+Generated: 2026-01-27 09:41:15
+Dataset: 100 matches from 1 leagues
+Target Variable: match_result (H/D/A)
+
+KEY FINDINGS
+------------
+1. Match Results (match_result):
+   - Home Wins: 29.0%
+   - Draws: 30.0%
+   - Away Wins: 41.0%
+
+2. Home Advantage:
+   - Strongest: Premier League (29.0%)
+   - Weakest: Same as strongest: Premier League (29.0%)
+
+3. Goals Analysis:
+   - Avg goals/match: 3.01
+   - Home advantage: 0.99 goals
+   - Most common score: 0-0
+
+RECOMMENDATIONS FOR MODELLING
+-----------------------------
+1. Use 'match_result' as target variable for classification
+2. Include home advantage as key feature
+3. Goal difference strongly predictive of home wins
+4. Consider league-specific models
+
+VISUALIZATIONS CREATED
+----------------------
+- match_results_distribution.png
+- home_advantage_analysis.png
+- goals_analysis.png
